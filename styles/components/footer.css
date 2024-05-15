@@ -1,0 +1,60 @@
+.footer {
+    margin: 1.5rem 0 0.5rem;
+    color: var(--color-description);
+}
+
+.footer__title {
+    font-size: 1rem;
+}
+
+.footer__author {
+    color: var(--color-description);
+    font-size: inherit;
+}
+
+.footer__text-container {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(47.5%, 1fr));
+    gap: 1rem;
+}
+
+.footer__text {
+    /* border: 1px solid red; */
+    color: var(--color-description);
+    font-size: 0.8rem;
+}
+
+.footer__copyright {
+    font-size: 0.85rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* xs */
+/* 475px */
+/* @media (min-width: 29.6875rem) {} */
+
+/* sm */
+/* 640px */
+/* @media (min-width: 40rem) {} */
+
+/* md */
+/* 768px */
+@media (min-width: 48rem) {
+    .footer__text-container {
+        grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    }
+}
+
+/* lg */
+/* 1024px */
+/* @media (min-width: 64rem) {} */
+
+/* xl */
+/* 1280px */
+/* @media (min-width: 80rem) {} */
+
+/* 2xl */
+/* 1536px */
+/* @media (min-width: 96rem) {} */

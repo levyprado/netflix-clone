@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/modern-normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/components/bg.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/hero.css">
+    <link rel="stylesheet" href="./styles/components/cta.css">
+    <link rel="stylesheet" href="./styles/components/faq.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+
+    <title>Netflix Clone</title>
+</head>
+
+<body>
+    <section class="bg">
+        <header class="header container">
+            <img src="./public/logo.png" alt="Netflix logo" class="header__logo" width="1800" height="756">
+            <div>
+                <select name="lang" class="header__select">
+                    <option selected disabled hidden>Lang</option>
+                    <option value="pt-br">Português</option>
+                    <option value="en">English</option>
+                </select>
+                <a href="#" class="btn header__btn">Sign in</a>
+            </div>
+        </header>
+        <section class="hero container">
+            <h1 class="section__title hero__title">Unlimited movies, TV shows, and more.</h1>
+            <p class="section__description hero__description1">Watch anywhere. Cancel anytime.</p>
+            <p class="section__description hero__description2">Ready to watch? Enter your email or mobile number to
+                create or restart your membership.</p>
+            <div class="hero__btn-wrapper">
+                <input type="text" class="section__input hero__input" placeholder="Email or mobile number">
+                <button class="btn hero__btn">Get Started <span class="hero__btn-arrow"><svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </span></button>
+            </div>
+        </section>
+    </section>
+    <section class="cta container">
+        <div class="cta__wrapper">
+            <img src="./public/popcorn.svg" alt="Popcorn icon" class="cta__icon">
+            <div>
+                <h3 class="cta__title">The Netflix you love for just BRL 18.90.</h3>
+                <p class="cta__description">Get the Standard with ads plan.</p>
+                <a href="#" class="cta__btn">Learn More<span class="cta__btn-arrow"><svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </span></a>
+            </div>
+        </div>
+    </section>
+    <section class="container section">
+        <div class="feature__wrapper">
+            <h2 class="feature__title">Enjoy on your TV</h2>
+            <p class="feature__description">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple
+                TV,
+                Blu-ray players, and more.</p>
+        </div>
+        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""
+            class="feature__img">
+    </section>
+    <div class="separator"></div>
+    <section class="container section">
+        <div class="feature__wrapper">
+            <h2 class="feature__title">Watch everywhere</h2>
+            <p class="feature__description">Stream unlimited movies and TV shows on your phone,
+                tablet, laptop, and TV.</p>
+        </div>
+        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt=""
+            class="feature__img feature__img--left">
+    </section>
+    <div class="separator"></div>
+    <section class="container section">
+        <div class="feature__wrapper">
+            <h2 class="feature__title">Create profiles for kids</h2>
+            <p class="feature__description">Send kids on adventures with their favorite characters in
+                a space made just for them—free with your membership.</p>
+        </div>
+        <img src="https://occ-0-8304-1740.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55"
+            alt="" class="feature__img">
+    </section>
+    <div class="separator"></div>
+    <section class="container section">
+        <div class="feature__wrapper">
+            <h2 class="feature__title">Download your shows to watch offline</h2>
+            <p class="feature__description">Watch on a plane, train, or submarine...</p>
+        </div>
+        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt=""
+            class="feature__img feature__img--left">
+    </section>
+    <div class="separator"></div>
+    <section class="faq container">
+        <h2 class="section__title faq__title">Frequently Asked Questions</h2>
+        <div class="faq__box-container">
+            <div class="faq__box">
+                <h3 class="faq__question">What is Netflix?</h3>
+                <button class="faq__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="faq__box">
+                <h3 class="faq__question">How much does Netflix cost?</h3>
+                <button class="faq__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="faq__box">
+                <h3 class="faq__question">Where can I watch?</h3>
+                <button class="faq__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="faq__box">
+                <h3 class="faq__question">How do I cancel?</h3>
+                <button class="faq__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="faq__box">
+                <h3 class="faq__question">What can I watch on Netflix?</h3>
+                <button class="faq__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="faq__box">
+                <h3 class="faq__question">Is Netflix good for kids?</h3>
+                <button class="faq__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <p class="section__description faq__description">Ready to watch? Enter your email or mobile
+            number to
+            create or restart your membership.</p>
+        <div class="hero__btn-wrapper">
+            <input type="text" class="section__input hero__input" placeholder="Email or mobile number">
+            <button class="btn hero__btn">Get Started <span class="hero__btn-arrow"><svg
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg>
+                </span></button>
+        </div>
+    </section>
+    <div class="separator"></div>
+    <footer class="footer container">
+        <p href="#" class="footer__title">Questions? Call <a href="https://github.com/levyprado" target="_blank"
+                class="footer__author">Levy Prado</a></p>
+        <div class="footer__text-container">
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">FAQ</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Account</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Investor Relations</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Redeem Gift Cards</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Ways to Watch</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Privacy</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Corporate Information</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Speed Test</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text ">Only on Netflix</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Help Center</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Media Center</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Jobs</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Buy Gift Cards</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Terms of Use</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Cookie Preferences</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Contact Us</a>
+            </div>
+            <div class="footer__text-anchor">
+                <a href="#" class="footer__text">Legal Notices</a>
+            </div>
+        </div>
+        <p class="footer__copyright">Netflix pure HTML & CSS clone created by <a href="https://github.com/levyprado"
+                target="_blank" class="footer__author">Levy
+                Prado</a></p>
+    </footer>
+</body>
+
+</html>

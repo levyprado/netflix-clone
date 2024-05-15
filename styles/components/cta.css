@@ -1,0 +1,95 @@
+.cta {
+    margin-top: 1rem;
+}
+
+.cta__wrapper {
+    background: radial-gradient(
+        120.35% 220% at 49.86% -6.29%,
+        #e50914 0%,
+        #0e1b4f 46.15%,
+        #0d1121 100%
+    );
+    color: var(--color-text);
+    padding: 3rem 1.5rem 1.5rem;
+    border-radius: 4px;
+    position: relative;
+}
+
+.cta__icon {
+    width: 4.5rem;
+    position: absolute;
+    top: -35px;
+    left: 15px;
+}
+
+.cta__title {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.cta__description {
+    font-size: 0.9rem;
+    margin-block: 0.5rem;
+    font-weight: 300;
+}
+
+.cta__btn {
+    color: #3b82f6;
+    font-size: 0.95rem;
+}
+
+.cta__btn-arrow {
+    display: inline-block;
+    width: 1.5rem;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
+
+/* xs */
+/* 475px */
+/* @media (min-width: 29.6875rem) {} */
+
+/* sm */
+/* 640px */
+@media (min-width: 40rem) {
+    .cta__wrapper {
+        background: radial-gradient(
+            51.39% 511.66% at 47.68% -217.91%,
+            #ff9900 0%,
+            #e50914 17.27%,
+            #0e1b4f 79.44%,
+            #000413 100%
+        );
+        position: initial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .cta__icon {
+        position: initial;
+    }
+}
+
+/* md */
+/* 768px */
+/* @media (min-width: 48rem) {} */
+
+/* lg */
+/* 1024px */
+@media (min-width: 64rem) {
+    .cta__wrapper {
+        margin-top: -80px;
+        margin-bottom: -80px;
+    }
+}
+
+/* xl */
+/* 1280px */
+/* @media (min-width: 80rem) {} */
+
+/* 2xl */
+/* 1536px */
+/* @media (min-width: 96rem) {} */
