@@ -2,6 +2,10 @@
 
 Responsive pure HTML & CSS Webpage, movie themed.
 
+### Links
+
+- Live Site URL: [https://levyprado.github.io/netflix-clone/](https://levyprado.github.io/netflix-clone/)
+
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
@@ -13,9 +17,7 @@ Users should be able to:
 ![](images/screenshot-mobile-new.png)
 ![](images/mobile-gif.gif)
 
-### Links
 
-- Live Site URL: [https://levyprado.github.io/netflix-clone/](https://levyprado.github.io/netflix-clone/)
 
 ### Built with:
 
